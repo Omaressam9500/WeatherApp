@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherComponent snapshot test 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "marginLeft": 17,
+      }
+    }
+  >
+     
+      
+     
+    °F
+  </Text>
+</View>
+`;
