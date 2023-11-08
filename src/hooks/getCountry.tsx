@@ -20,7 +20,7 @@ export const getCounrtyDetailsHook = (countryObj: ICountry, days: number, onSucc
             },
             onError: (error) => {
                 console.log(error?.response.data?.error)
-                  showMessage({ message: error?.response.data?.error?.message,type:'danger' })
+                  showMessage({ message: error?.response?.data?.error?.message,type:'danger' })
             }
         }
     );
